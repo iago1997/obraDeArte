@@ -5,27 +5,44 @@ button{
     border-radius: 50%;
     border-color: #660000;
     text-align: center;
-    margin-left: 48%;
+    margin-left: 50%;
     margin-top: 10%;
-    margin-right: 50%;
+    margin-right: 40%;
     outline:none;
    
 }
 
-input{
+input.fraseGoku{
     text-align: center;
-    margin-left: 84%;
+    margin-left: 81%;
     size: 250px;
     width: 200px;
     border: solid 0px black;
     
 }
 
+input.fraseOruga{
+    text-align: center;
+    border: solid 0px black;
+    margin-right: 80%;
+    size: 250px;
+    width: 200px;
+}
 
-img{
+
+img {
     width: 18%;
     height: 18%;
-    margin-left: 80%;
+}
+
+.goku{
+    margin-left: 81%;
+  
+    
+}
+
+.oruga{
+    margin-top: 9%;
 }
 
 
