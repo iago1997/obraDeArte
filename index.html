@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="prueba.css">
+</head>
+<body>
+
+    
+    <div id="imagencargando"></div>
+    <input id="texto" type="text">
+    <p id="parrafo"></p>
+    <button onclick="calcular()" id="calcular">PRESS</button>
+    
+    
+
+    <script>
+
+        var image = new Image();
+         function calcular(){
+
+            document.getElementById("texto").value= "Hola, pulsa otra vez el botón."
+            document.getElementById("parrafo").value= "Hola, pulsa otra vez el botón."
+            
+    
+            
+           
+
+            var src = "goku.png"; //Esta es la variable que contiene la url de una imagen ejemplo, luego puedes poner la que quieras
+            image.src = src;
+
+            document.getElementById("imagencargando").append(image);
+
+             
+ 
+
+
+         }
+    </script>
+
+  
+</body>
+</html>
