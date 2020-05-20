@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="prueba.css">
+    
 </head>
 <body>
 
@@ -13,7 +14,7 @@
 
     <input id="texto" type="text">
 
-
+    <input style="color: green;" id="texto1" type="text">
    
 
     <button onclick="calcular()" id="calcular">PRESS</button>
@@ -36,7 +37,8 @@
             image.src = src;
             document.getElementById("imagencargando").append(image);
 
-            document.getElementById("texto").value= "PEDORROOOOOOOOOO!!!"
+            document.getElementById("texto1").value= "PEDORROOOOOOOOOO!!!"
+            document.getElementById("texto").value= " "
 
            }else{
 
@@ -46,6 +48,7 @@
             document.getElementById("imagencargando").append(image);
 
             document.getElementById("texto").value= "Hola, pulsa otra vez el botón."
+            document.getElementById("texto1").value= " "
             
 
            }
