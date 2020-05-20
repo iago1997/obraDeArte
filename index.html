@@ -10,14 +10,16 @@
 <body>
 
     
-    <div class="gokus" id="imagencargando"></div>
+    <div class="goku" id="imagen1"></div>
 
-    <input id="texto" type="text">
+    <input id="texto" type="text" class="fraseGoku">
 
-    <input style="color: green;" id="texto1" type="text">
-   
 
     <button onclick="calcular()" id="calcular">PRESS</button>
+
+    <div class="oruga" id="imagen2"></div>
+
+    <input style="color: green;" id="texto1" type="text" class="fraseOruga">
 
     <audio src="cancion1.mp3">  <!-- CANCION: RVFV FT. OMAR MONTES, DAVILES DE NOVELDA - PRENDIO REMIX -->
         <code>audio</code>
@@ -43,7 +45,7 @@
             //IMAGEN
             var src = "oruga.png"; //Esta es la variable que contiene la url de una imagen ejemplo, luego puedes poner la que quieras
             image.src = src;
-            document.getElementById("imagencargando").append(image);
+            document.getElementById("imagen2").append(image);
 
             //FRASE
             document.getElementById("texto1").value= "PEDORROOOOOOOOOO!!!"
@@ -62,7 +64,7 @@
             //IMAGEN
             var src = "goku.png"; //Esta es la variable que contiene la url de una imagen ejemplo, luego puedes poner la que quieras
             image.src = src;
-            document.getElementById("imagencargando").append(image);
+            document.getElementById("imagen1").append(image);
 
             //SONIDO
             v.pause();
