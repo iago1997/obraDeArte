@@ -19,7 +19,7 @@
 
     <button onclick="calcular()" id="calcular">PRESS</button>
 
-    <audio src="cancion.mp3">  //CANCION: RVFV FT. OMAR MONTES, DAVILES DE NOVELDA - 🔥 PRENDIO REMIX🔥
+    <audio src="cancion.mp3">  //CANCION: RVFV FT. OMAR MONTES, DAVILES DE NOVELDA - PRENDIO REMIX
         <code>audio</code>
     </audio>
 
@@ -49,21 +49,24 @@
             document.getElementById("texto").value= " "
 
             //CANCIÓN
-            if (!sound) {
+            
                 v.play();
                 this.innerHTML = "Pause";
                 sound = true;
-            } else {
-                v.pause();
-                this.innerHTML = "Play";
-                sound = false;
-            } 
+            
+                
+            
 
            }else{
             //IMAGEN
             var src = "goku.png"; //Esta es la variable que contiene la url de una imagen ejemplo, luego puedes poner la que quieras
             image.src = src;
             document.getElementById("imagencargando").append(image);
+
+            //SONIDO
+            v.pause();
+            this.innerHTML = "Play";
+            sound = false;
 
             //FRASE
             document.getElementById("texto").value= "Hola, pulsa otra vez el botón."
