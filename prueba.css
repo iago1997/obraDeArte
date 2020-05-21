@@ -6,17 +6,17 @@ button{
     border-color: #660000;
     text-align: center;
     margin-left: 50%;
-    margin-top: 10%;
+    margin-top: auto;
     margin-right: 40%;
     outline:none;
    
 }
 
 input.fraseGoku{
-    text-align: center;
+    text-align: right;
     margin-left: 81%;
     size: 250px;
-    width: 200px;
+    width: 215px;
     border: solid 0px black;
     
 }
@@ -24,7 +24,7 @@ input.fraseGoku{
 input.fraseOruga{
     text-align: center;
     border: solid 0px black;
-    margin-right: 80%;
+    margin-right: 81%;
     size: 250px;
     width: 200px;
 }
@@ -35,14 +35,16 @@ img {
     height: 18%;
 }
 
-.goku{
-    margin-left: 81%;
-  
+
+.oruga{
+    margin-top: 19%;
     
 }
 
-.oruga{
-    margin-top: 9%;
+div.goku{
+    
+    text-align: right;
+
 }
 
 
